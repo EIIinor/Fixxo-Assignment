@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+:root {
+    --color-theme: #FF7373;
+    --color-white: #FFFFFF;
+    --color-gray-0: #F5F5F5;
+    --color-gray-1: #BEBEBE;
+    --color-gray-2: #616365;
+    --color-dark: #23262A;
+
+    --font-poppins: 'Poppins', sans-serif;
+    --font-weight-Regular: 400;
+    --font-weight-Medium: 500;
+    --font-weight-SemiBold: 600;
+    --font-weight-Bold: 700;
+    --font-weight-ExtraBold: 800;
+    
+    --border-radius-rounded: 50%;
+}
+
+
+
+
+/* TOP MENU */
+
+.top-menu {
+    background-color: var(--color-gray-0);
+}
+
+    .top-menu  .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+        .top-menu .container h1 {
+            font-weight: bold;
+            font-size: 2,18rem;
+        }
+
+        .top-menu .container .category-links {
+            padding: 1rem;
+        }   
+            .top-menu .container .category-links a {
+                color: var(--color-dark);
+                text-decoration: none;
+                padding: 0.7rem;
+                font-weight: var(--font-weight-Medium);
+                font-size: 1rem;
+            }
+
+        .top-menu .container .menu-links .menu-link {
+            background-color: var(--color-white);
+            color: var(--color-dark);
+            border-radius: var(--border-radius-rounded);
+        }
+
+
+
+
+        /*  showcase */
+
+        .showcase {
+            background-color: var(--color-gray-0);
+        }
+
+        .showcase .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: var(--color-gray-0);
+            border-right: 0;
+            border-left: 0;
+        }
