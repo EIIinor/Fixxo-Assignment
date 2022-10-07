@@ -173,13 +173,13 @@
 /* Featured Product */
 
 .featured-products {
-    padding-top: 3rem;
+    padding-top: 5rem;
     padding-bottom: 10rem;
   
 }
 
 .featured-products .container {
- 
+    width: 1050px;
 }
 
 
