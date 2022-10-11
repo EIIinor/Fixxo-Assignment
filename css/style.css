@@ -737,3 +737,24 @@
  .customer-info .info p {
     font-size: 1rem;
  }
+
+
+
+ /* Bottom */
+
+.bottom {
+    margin-top: 4rem;
+    background-color: var(--color-gray-0);
+    border: 1px solid var(--color-gray-1)
+}
+
+    .bottom .container {
+        display: flex;
+        display: block;
+        text-align: center;
+        padding-top: 1rem;
+    }
+
+        .bottom .container img {
+            margin-bottom: 0.5rem;
+        }
