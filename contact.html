@@ -58,19 +58,20 @@
             <div class="title">
                 <h1>Come in Contact with Us</h1>
             </div>
-            <div id="error"></div>
-            <form id="form">
-                <div>
-                    <label for="name"></label>
-                    <input id="name" type="text" placeholder="Your Name">
+            <form onsubmit="onSubmit(event)" novalidate>
+                <div class="mb-4">
+                    <label id=firstName-label for="firstName" class="form-label"></label>
+                    <input id="firstName" type="text" class="form-control" onkeyup="validate(event)" placeholder="Your Name" required>
+                    <div id="firstName-error" class="text-danger"></div>
                 </div>
-                <div>
-                    <label for="mail"></label>
-                    <input id="mail" type="email" placeholder="Your Mail">
+                <div class="mb-4">
+                    <label id="email-label" for="email" class="form-label"></label>
+                    <input id="email" type="email" class="form-control" onkeyup="validate(event)" placeholder="Your Mail" required>
+                    <div id="email-error" class="text-danger"></div>
                 </div>
-                <div>
+                <div class="mb-4">
                     <label for="text"></label>
-                    <input id="text" type="text" placeholder="Comments">
+                    <input id="text" placeholder="Comments">
                 </div>
                 <button type="submit" class="btn btn-theme">Post Comments</button>
             </form>
