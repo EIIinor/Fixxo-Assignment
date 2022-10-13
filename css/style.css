@@ -835,7 +835,7 @@
 
 
 
-/*  CONTACT SITE  */
+/* --------------------- CONTACT SITE ------------------------ */
 
 /* TOP MENU  */
 
@@ -948,48 +948,54 @@
     padding-left: 15rem;
 }
 
-    .contact-form .container .form {
-        display: flex;
-        display: inline-block;
-    }
-
     .contact-form .container h1 {
         font-size: 1.125rem;
         font-weight: var(--font-weight-Bold);
         padding-bottom: 1rem;
     }
 
-    .contact-form .container .form .name {
+    .contact-form .container .form {
+        width: 1500px;
+        display: flex;
         display: inline-block;
-        width: 440px;
-        padding-bottom: 1rem;
     }
-        .contact-form .container .form .name #name  {
+
+        .contact-form .container .form .firstname-div {
+            width: 420px;
             display: inline-block;
-            border: 1px solid var(--color-gray-1);
-            width: 100%;
         }
-    
+            .contact-form .container .form #firstName {
+                border-radius: 0;
+            }
+            
 
-    .contact-form .container .form .mail {
-        display: inline-block;
-        width: 440px;
-        margin-left: 1rem;
-        
-    }
-        .contact-form .container .form .mail #mail {
-            width: 100%;
-            border: 1px solid var(--color-gray-1);
+        .contact-form .container .form .email-div {
+            width: 420px;
+            display: inline-block;
+            margin-left: 1rem;
+        }  
+            .contact-form .container .form #email {
+                border-radius: 0;
+            }
+
+
+
+        .contact-form .container .form .comment-div {
+          width: 800px;
+        } 
+            .contact-form .container .form #text {
+                width: 860px;
+                height: 100px;
+                border: 1px solid var(--color-gray-1);
+                margin-bottom: 1rem;
+            } 
+
+
+        .contact-form .container .form button {
+            background-color: var(--color-theme);
+            color: var(--color-white);
+            border-radius: 0%;
+            width: 150px;
+            height: 35px;
+            font-weight: var(--font-weight-SemiBold);
         }
-
-
-    .contact-form .container .form .text #text {
-        width: 900px;
-        height: 100px;
-        border: 1px solid var(--color-gray-1);
-    }
-
-    .contact-form .container button {
-        margin-top: 1rem;
-        width: 180px;
-    }
